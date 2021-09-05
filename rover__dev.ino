@@ -15,19 +15,13 @@ void loop() {
 
       
 
-    int motor_direction1 , motor_speed1 ,
-      motor_direction2 , motor_speed2 ,
-      motor_direction3 , motor_speed3 ,
-      motor_direction4 , motor_speed4 ;
+   int motor_direction1 , motor_speed1 ,
+     motor_direction2 , motor_speed2 ,
+     motor_direction3 , motor_speed3 ,
+     motor_direction4 , motor_speed4 ;
 
 
-    
-
-  
-    
-
-
-  
+   
   
    motor_speed1 = random(0,256)     ;
    motor_direction1 = random(0,2) ;
@@ -71,7 +65,7 @@ void loop() {
   
   Serial.println(encoder);
 
-  delay(5000) ;
+  delay(1000) ;
   
    
 } 
